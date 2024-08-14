@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9999))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6920064308))
+OWNER_ID = int(getenv("OWNER_ID", 6623380925))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,18 +32,18 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ShahinaAbhi143/ShahinaXMusic",
+    "https://github.com/nothing022/XMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/study5869")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+u3ZDuhM1EKQ4MTk1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Nothingbots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+Nothingbots")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -78,10 +78,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/804fa956a84862b547fc5.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/b8931fc7533f887a402a4.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/dc111a1c1358c553ea604.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/b8931fc7533f887a402a4.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/1e0af186d0575a7d6a650.jpg"
 STATS_IMG_URL = "https://graph.org/file/83312f735f032270a4c23.jpg"
