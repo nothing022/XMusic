@@ -40,7 +40,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Nothingbots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+Nothingbots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Nothingbots")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -83,8 +83,8 @@ START_IMG_URL = getenv(
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/b8931fc7533f887a402a4.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/1e0af186d0575a7d6a650.jpg"
-STATS_IMG_URL = "https://graph.org/file/83312f735f032270a4c23.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/1d55e9093b4022a725f27.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/ec08a28e5134ff4df78be.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org/file/d8db306e9e0b0504718b3.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
