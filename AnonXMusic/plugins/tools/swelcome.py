@@ -127,7 +127,7 @@ async def greet_group(_, member: ChatMemberUpdated):
             caption= f"""
 ʜᴇʏ ᴛʜᴇʀᴇ {user.mention} , ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {member.chat.title}
 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-ɴᴀᴍᴇ :- {user.name}
+ɴᴀᴍᴇ :- {user.mention}
 ɪᴅ :- {user.id}
 ᴜsᴇʀɴᴀᴍᴇ :- @{user.username}
 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
